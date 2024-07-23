@@ -1,3 +1,56 @@
+/**Styling **/
+body{
+    /**This font is the closest i found for the Dune style, the movie name is very custom and i used the same font for it **/
+    font-family: "Montserrat", sans-serif;
+    /**Added the background color of the rocks in the poster just to let it blend in more nicely **/
+    background-color: #153d45;
+}
+/** targeted the image container to center it with text align **/
 .img-container {
     text-align: center;
 }
+/**The movie name (H1) is absolute allowing it to be on the poster and not behind it **/
+/**I used the transform action which i read about in the css documentary and found it very useful to align the text down below **/
+/**Tried to use the letter spacing to make it more similar to the original picture, made it normal and not bold. **/
+.movie-name{
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 97%;
+    left: 53%;
+    letter-spacing: 100px;
+    font-size: 45px;
+}
+/**I removed the text decoration from the h1 as its the link to the trailer also. and gave it a color **/
+a{
+    text-decoration: none;
+    color: #f5f3e0;
+}
+/** Same styling for the second heading as the first heading **/
+.part {
+    font-weight: normal;
+    position: absolute;
+    letter-spacing: 10px;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    top: 108%;
+    left: 50%;
+    color: #f5f3e0;
+}
+/** Using the same font, font size smaller, centered and using negative margin from the top to align it horizontally **/
+.description{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #f5f3e0;
+    text-align: center;
+    width: 600px;
+    margin-left: 450px;
+    margin-top: -150px;
+}
+/** Targeting the Span to make the words smaller creating the correct design **/
+.lowercase{
+    font-size: 6px;
+}
+
+
