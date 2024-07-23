@@ -6,22 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Assignment 1 - Sharon Chrysler">
     <title>Assignment 3 - Movie Poster | Sharon Chrysler</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta name="robots" content="noindex, nofollow">
     <!-- Css link -->
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-<header>
-
-</header>
-
-<main>
+<!-- Created a div with a class to target it, the movie name will act as the hyperlink for the trailer on Youtube -->
+ <main>
     <div class="img-container">
         <img src ="./Images/Dune2-%20Edited.jpg" alt="Poster Image">
+        <h1 class ="movie-name"><a href = "https://www.youtube.com/watch?v=U2Qp5pL3ovA">DUNE</a></h1>
+        <h2 class ="part">PART TWO</h2>
     </div>
-</main>
-<footer>
-
-</footer>
+<!-- I used a div for the paragraph, inside I used Span to target to "Smaller" words and make the up and down in size effect -->
+     <div class="description">
+         <p>WARNER BROS.<span class ="lowercase">ASSOCIATION WITH</span> LEGENDARY PICTURES VILLENEUVE FILMS <span class ="lowercase">PRODUCTION</span>
+             DENIS VILLENEUVE <span class ="lowercase">FILM</span> DUNE
+         TIMOTHEE CHALMET REBECCA FERGUSON ZENDAYA FLORENCE PUGH AUSTIN BUTLER STELLAN SKARSGARD JOSH BROLIN DAVE BAUTISTA
+             <span class ="lowercase">WITH</span> CHARLOTTE RAMPLING <span class ="lowercase">AND</span> JAVIER BARDEM <span class ="lowercase">MUSIC BY</span>
+             HANS ZIMMER <span class ="lowercase">EDITED BY</span> JOE WALKER <span class ="lowercase">PRODUCTION</span> PATRICE VERMETTE <span class ="lowercase">DIRECTOR OF PHOTOGRAPHY</span> GREIG FRASER
+             <span class ="lowercase">SCREENPLAY</span> JOHN SPAIHTS DENIS VILLENEUVE <span class ="lowercase">ORIGINAL AUTHOR</span> FRANK HERBERT <span class ="lowercase">DIRECTED BY</span> DENIS VILLENEUVE</p>
+     </div>
+ </main>
 </body>
 </html>
